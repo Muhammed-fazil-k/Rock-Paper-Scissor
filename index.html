@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissor</title>
-</head>
-<body>
-    
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="heading-section">
+      <h1>Rock Paper Scissor</h1>
+    </div>
+
+    <div class="game-sections">
+      <div class="game-section player-game-section">
+        <h2>Hey click to beat the robot</h2>
+
+        <div class="game-choices">
+          <div class="choice choice-rock"><p>Rock</p></div>
+          <div class="choice choice-paper"><p>Paper</p></div>
+          <div class="choice choice-scissor"><p>Scissor</p></div>
+        </div>
+
+        <p></p>
+      </div>
+
+      <div class="game-section computer-game-section">
+        <h2>Computer will choose after you</h2>
+
+        <div class="computer-choice">
+          <div class="comp-choice"><p>Rock</p></div>
+        </div>
+
+        <p></p>
+      </div>
+    </div>
+
+    <div class="result-section">
+      <div class="winner-section">
+        <p></p>
+      </div>
+
+      <div class="score-section">
+        <p>Current game is <span></span> </p>
+
+        <div class="scores">
+          <div class="score user-score">
+            <p>You</p>
+            <p class="score-value">0</p>
+          </div>
+
+          <div class="score comp-score">
+            <p>Robot</p>
+            <p class="score-value">0</p>
+          </div>
+        </div>
+
+        <div class="final-result">
+          <p>Final result : <span></span> </p>
+        </div>
+
+        <button class="reload">Try Again</button>
+      </div>
+
+
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,98 @@
+html{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 10px;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+
+/* Heading Section*/
+
+.heading-section{
+    text-align: center;
+    margin: 1rem;
+    margin-top: 7rem;
+    padding: 1rem;
+}
+
+/* Game Section */
+.game-sections{
+    display: flex;
+    padding: 1rem;
+    margin: 2rem 15%;
+    justify-content: space-between;
+}
+.game-section{
+    margin-right: 5%;
+    flex: 1;
+    gap: 2rem;
+    height: 300px;
+    padding: 2rem;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game-choices,.computer-choice{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.computer-choice{
+    justify-content: center;
+}
+
+.choice,.comp-choice{
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 80px;
+    text-align: center;
+}
+
+/* Result Section */
+
+.result-section{
+    margin-top: 5rem;
+    text-align: center;
+}
+.winner-section{
+    height: 2rem;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.score{
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 10rem;
+}
+
+.score-value{
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.reload{
+    background-color: black;
+    color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
